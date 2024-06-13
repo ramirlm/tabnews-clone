@@ -1,0 +1,16 @@
+{
+  "name":  "tabnews-clone",
+  "version": "1.0.0",
+  "description": "Implementation of www.tabnews.com.br",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "Ramir Mesquita",
+  "licence": "MIT",
+  "dependencies": {
+    "next": "^14.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
