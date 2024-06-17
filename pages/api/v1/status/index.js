@@ -2,7 +2,6 @@ import query from "infra/database";
 
 async function status(request, response) {
   const updatedAt = new Date().toISOString();
-  const databaseName = process.env.POSTGRES_DB;
 
   const dBVersionResult = await query(`SHOW server_version;`);
   const dbVersionValue = dBVersionResult.rows[0].server_version;
